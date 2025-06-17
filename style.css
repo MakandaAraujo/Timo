@@ -1,0 +1,108 @@
+/* Container full screen flex center preto */
+.fullscreen-center-black {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal container com sombra e texto branco */
+.modal-container {
+  position: relative;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  color: white;
+  overflow: hidden;
+  max-width: 320px;
+}
+
+/* Modal background image overlay */
+.modal-bg-overlay {
+  position: absolute;
+  inset: 0;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjMj2nFLK7rrRYd7NPF2LDaoiNoR1CT9xhCQ&s');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.4;
+  z-index: 0;
+}
+
+/* Modal content relative to overlay */
+.modal-content {
+  position: relative;
+  z-index: 1;
+}
+
+/* Títulos e textos */
+.text-2xl {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+/* Botão azul */
+.btn-blue {
+  background-color: #3b82f6;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-size: 1rem;
+}
+
+.btn-blue:hover {
+  background-color: #1e40af;
+}
+
+/* Tela principal com background e tamanho */
+.main-bg {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://i.pinimg.com/236x/48/a5/0d/48a50d314c04b11a5b896eb8b664e2fc.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+}
+
+/* Caixa de texto centralizada */
+.center-text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 320px;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 0.375rem;
+  padding: 1rem 1.5rem;
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+/* Rodapé amarelo */
+.footer-yellow {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  background-color: #fcd34d;
+  text-align: center;
+  color: black;
+}
+
+.footer-yellow p {
+  font-weight: 600;
+  font-family: system-ui, sans-serif;
+}
